@@ -6,7 +6,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["JetBrains Mono Variable", ...defaultTheme.fontFamily.sans],
+        mono: ["JetBrains Mono Variable", ...defaultTheme.fontFamily.mono],
       },
     },
   },
