@@ -10,7 +10,7 @@
     "astro": "bunx astro"
   },
   "dependencies": {
-    "@astrojs/check": "^0.8.3",
+    "@astrojs/check": "0.9.3",
     "@astrojs/mdx": "^3.1.7",
     "@astrojs/react": "^3.6.2",
     "@astrojs/tailwind": "^5.1.1",
