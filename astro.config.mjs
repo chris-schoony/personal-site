@@ -6,5 +6,18 @@ import mdx from "@astrojs/mdx";
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), react(), mdx()],
+  integrations: [
+    tailwind(),
+    react(),
+    mdx({
+      shikiConfig: { theme: "catppuccin-mocha" },
+    }),
+  ],
+  vite: {
+    server: {
+      watch: {
+        usePolling: true,
+      },
+    },
+  },
 });
